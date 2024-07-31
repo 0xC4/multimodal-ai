@@ -19,7 +19,7 @@ Run the following code to apply dynamic thresholding and extract up to three les
 python extract_lesions.py
 ```
 
-Lesion volumes and likelihood scores will be saved to "lesions.csv"
+Lesion volumes and likelihood scores will be saved to `lesions.csv`
 
 ### 3. Merge your data with clinical parameters
 Use the scan ID to merge your data with additional (clinical) parameters to create the multimodal datasets.
