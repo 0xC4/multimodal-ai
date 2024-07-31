@@ -3,6 +3,9 @@ Project code for "Multimodal AI Combining Clinical and Imaging Inputs Improves P
 
 <img src="github_overview.png" alt="drawing" width="500"/>
 
+### Notes
+31-07-2024: We are currently updating this repository, all files will be uploaded in the coming days.
+
 ## Usage
 ### 1. Generate detection heatmaps DL detection model
 This project used a U-Net csPCa detection model pretrained in 7000+ cases ([Bosma et al., 2023](https://doi.org/10.1148/ryai.230031)). 
