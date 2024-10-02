@@ -3,9 +3,6 @@ Project code for "Multimodal AI Combining Clinical and Imaging Inputs Improves P
 
 <img src="github_overview.png" alt="drawing" width="500"/>
 
-### Notes
-31-07-2024: We are currently updating this repository, all files will be uploaded in the coming days.
-
 ## Usage
 ### 1. Generate detection heatmaps DL detection model
 This project used a U-Net csPCa detection model pretrained in 7000+ cases ([Bosma et al., 2023](https://doi.org/10.1148/ryai.230031)). 
@@ -29,7 +26,7 @@ Use the scan ID to merge your data with additional (clinical) parameters to crea
 An example is provided in `merge_data.py`, combining the predictions with PSA, prostate volume, and age.
 
 ### 4. Generate predictions for different configurations
-Modify lines X-Y in `experiment.py` to specify your own data groupings. The groupings will be relevant in early- (feature level) versus late (decision level) fusion.
+Modify `experiment.py` to specify your own data groupings. The groupings will be relevant in early- (feature level) versus late (decision level) fusion.
 
 Run:
 ```
