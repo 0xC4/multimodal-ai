@@ -75,7 +75,10 @@ The statistical code is included in `statistics.R`.
 
 Requirements:
 ```
-
+pROC
+ggplot2
+ggsci
+ggnewscale
 ```
 
 ROC curves are generated and saved to the default R workdir `~/`.
